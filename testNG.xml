@@ -1,9 +1,9 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="Shopping Regression Suite">
-<parameter name="browser" value="firefox"></parameter>
+<parameter name="browser" value="chrome"></parameter>
 	<test name="Regression Test">
 		<classes>
-			<class name="tests.HomePageTest" />
+			<class name="tests.StartTaskTest" />
 		</classes>
 	</test>
 </suite>

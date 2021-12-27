@@ -19,7 +19,7 @@ public class MyTasksPage extends PageBase {
 	WebElement newTask;
 
 	@FindBy(xpath = "/html/body/app-root/vertical-layout/div/content/div/app-my-tasks/div/div/div/div/div[2]/app-all-tasks/div/div[1]/div[1]")
-	WebElement Task1;
+	WebElement Task;
 
 	@FindBy(xpath = "/html/body/app-root/vertical-layout/div/content/div/app-task-details/div[1]/div[2]/div[2]/button")
 	WebElement startTaskButton;
@@ -30,7 +30,7 @@ public class MyTasksPage extends PageBase {
 	}
 
 	public void openTask() {
-		Task1.click();
+		Task.click();
 	}
 
 	public void startTask() {
